@@ -4,7 +4,6 @@ Küçükosmanoglu, Scoarta et al.
 ____________________________________________________________________________________________________________________________________________________
 #### [Data and results](/data)
 - 01_drugs_ids.csv: input file with the names of the drugs and their IDs
-- 01_facts.csv: input file with adverse reactions and single drugs IDs
 - 01_kompas_benchmark_data_drug_ids.csv: input file with the data collected from Farmacotherapeutisch Kompas (FK) database
 - 01_md_data_init.csv: input file with the drug combinations data from FAERS databse
 - 01_sd_data_init.csv: input file with the single drug combinations data from FAERS database
