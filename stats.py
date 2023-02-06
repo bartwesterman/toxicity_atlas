@@ -18,7 +18,6 @@ drug_names = pd.read_csv('data/01_drugs_ids.csv')
 drug_names = drug_names[['id', 'name']]
 drug_names = drug_names.drop_duplicates()
 
-facts = pd.read_csv('data/01_facts.csv')  # used for matching snomed and meddra ids
 snomed_ids = pd.read_csv('data/01_snomed_ids.csv')  # used for decoding the adverse reactions in snomed ids
 snomed_ids = snomed_ids.drop_duplicates(subset=['snomed_reaction'])
 
